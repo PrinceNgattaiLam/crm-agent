@@ -48,6 +48,7 @@ Generate action plan
 
 1. Install `uv`
 ```
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 2. Run the following command in the root directory:
 ```bash
@@ -62,7 +63,6 @@ uv sync
 ```bash
 uv run main.py
 ```
-
 
 ## Mock CRM Database
 
